@@ -6,6 +6,8 @@
 
 ## 2021-08-30 - 2일차
 1. header/section/footer   
-2. 빌드 후 github page 업로드   
+2. 빌드 후 github page 업로드
 
-
+## 2021-08-31 - 2일차(8월의 마지막!)   
+1. json 파일에서 footer 데이터 출력(footer.json > footer.js로 출력)
+2. map함수 활용
