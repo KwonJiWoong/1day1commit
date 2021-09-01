@@ -1,17 +1,17 @@
 import '../css/footer.css';
 import footerData from '../json/footer.json';
 
-const newfooterData = footerData.content.person.map((item, index) => {
+const newfooterData = footerData.content.person.map((item, name,  email,  tel) => {
   return (
     <ul>
-      <li key={index}>
+      <li key={name}>
         {item.name} 
       </li>
-      <li key={index}>
-        {item.email}
+      <li key={email}>
+        {item.email} 
       </li>
-      <li key={index}>
-        {item.tel}
+      <li key={tel}>
+        {item.tel} 
       </li>
     </ul>
   );

@@ -5,7 +5,7 @@ function Header() {
     {"gnb" : ["목록1","목록2","목록3","목록4"]}
     ];
     function GnbSet({props}){
-        let GnbList = data[0].gnb.map((gnbList, i) => <li>{gnbList}</li>);
+        let GnbList = data[0].gnb.map((gnbList, i) => <li key={i}>{gnbList}</li>);
         return(
             <ul>
                 {GnbList}
