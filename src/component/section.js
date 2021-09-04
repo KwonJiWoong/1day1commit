@@ -1,6 +1,8 @@
 import '../css/section.css';
 import React, { useState } from 'react';
 
+
+
 function InputSample(){
   /* welcome문구 state 설정 */
   const [welcome, addWelcome] = useState({
@@ -41,14 +43,16 @@ function InputSample(){
     });
       
   };
-  const Welcome = ()=> {
-    return (<h2>"이름은 "{name}"이고 별명은"{nickname}"이시네요!"</h2>);
-  };
   /* addCom 이벤트로 state 활용한 컴포넌트 추가 */
   const addCom = () => {
+    const addcomponent = <Welcome />;
     addWelcome({
-      ...addWelcome, addcompo: <Welcome />
-    })
+      ...addWelcome, addcompo: addcomponent
+    });
+    return addcompo;
+  };
+  const Welcome = ()=> {
+    return (<h2>"이름은 "{name}"이고 별명은"{nickname}"이시네요!"</h2>);
   };
 
   return (
@@ -61,6 +65,7 @@ function InputSample(){
         <button onClick={onSet}>확인</button>
         <p>{text}</p>
         <button onClick={addCom}>컴포넌트 추가</button>
+        {addcompo}
       </div>
     </div>
   );
