@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       <Header></Header>
       <Switch>
-        <Route exact path="/" component={Section}></Route>
-        <Route path="/com" component={Newtest}></Route>
+        <Route exact path="/1day1commit/build/" component={Section}></Route>
+        <Route path="/1day1commit/build/com" component={Newtest}></Route>
       </Switch>
       <Footer></Footer>
     </div>

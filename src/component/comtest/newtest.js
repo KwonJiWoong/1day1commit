@@ -1,7 +1,8 @@
+import "./test.css";
 
 function Newtest(){
     return(
-        <p>테스트용 컴포넌트 확인</p>
+        <p className="test">테스트용 컴포넌트 확인</p>
     );
 }
 
