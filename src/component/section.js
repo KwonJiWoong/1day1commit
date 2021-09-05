@@ -1,13 +1,10 @@
 import '../css/section.css';
 import React, { useState } from 'react';
-
+// import addComponet from './addComponent';
+import { Route, Link, Switch } from "react-router-dom";
 
 
 function InputSample(){
-  /* welcome문구 state 설정 */
-  const [welcome, addWelcome] = useState({
-    addcompo:[]
-  });
   /* input state 설정 */
   const [inputs, setInputs] = useState({
     name:'',
@@ -16,7 +13,6 @@ function InputSample(){
   });
   /* state 저장 */
   const { name, nickname, text } = inputs;
-  const { addcompo } = welcome;
 
   /* onChane 이벤트로 state 변경 */
   const onChange = (e) => {
@@ -41,18 +37,6 @@ function InputSample(){
       nickname:nickname,
       text:"이름은 "+name+" 별명은 "+nickname+"입니다"
     });
-      
-  };
-  /* addCom 이벤트로 state 활용한 컴포넌트 추가 */
-  const addCom = () => {
-    const addcomponent = <Welcome />;
-    addWelcome({
-      ...addWelcome, addcompo: addcomponent
-    });
-    return addcompo;
-  };
-  const Welcome = ()=> {
-    return (<h2>"이름은 "{name}"이고 별명은"{nickname}"이시네요!"</h2>);
   };
 
   return (
@@ -64,8 +48,7 @@ function InputSample(){
         <p>{name} / ({nickname})님 오신걸 환영합니다.</p>
         <button onClick={onSet}>확인</button>
         <p>{text}</p>
-        <button onClick={addCom}>컴포넌트 추가</button>
-        {addcompo}
+        {/* <button onClick={addCom}>컴포넌트 추가</button>         */}
       </div>
     </div>
   );
@@ -75,6 +58,7 @@ function Section() {
   return (
     <section>
         <InputSample />
+        {/* <addComponet  value={this.props} /> */}
     </section>
   );
 }
