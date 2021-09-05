@@ -2,4 +2,5 @@
 header {text-align: center; }
 header > h1 {text-align: center;}
 nav {margin:20px 0 20px; margin:0 auto; list-style:none;}
-nav > ul {width:50%; margin:20px auto; list-style:none; display:flex; justify-content:space-between;}
+nav > ul {width:20%; margin:20px auto; list-style:none; display:flex; justify-content:space-between; font-weight:bold;}
+nav a {display:block; padding:20px; position:relative; border:solid 1px #ddd;}

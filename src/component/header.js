@@ -2,21 +2,20 @@ import '../css/header.css';
 
 function Header() {
     const data = [
-    {"gnb" : ["목록1","목록2","목록3","목록4"]}
+    {id:1, name: "홈", link: "/"},
+    {id:2, name: "테스트", link: "/com"}
+
     ];
-    function GnbSet({props}){
-        let GnbList = data[0].gnb.map((gnbList, i) => <li key={i}>{gnbList}</li>);
-        return(
-            <ul>
-                {GnbList}
-            </ul>
-        );
-    }
+    const GnbList = data.map((gnbList, i) => 
+        <li key={gnbList.id}>
+            <a href={gnbList.link}>{gnbList.name}</a>
+        </li>
+    );
   return (
     <header>
         <h1 className="title">권지웅의 포트폴리오</h1>
         <nav>
-            <GnbSet data={data.gnb}></GnbSet>
+            <ul>{GnbList}</ul>
         </nav>
     </header>
   );
