@@ -4,18 +4,23 @@ import Header from './component/header';
 import Section from './component/section';
 import Footer from './component/footer';
 import Newtest from './component/comtest/newtest';
-import { Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function App() {
+  
+  console.log(process.env.PUBLIC_URL)
   return (
-    <div className="App">
-      <Header></Header>
-      <Switch>
-        <Route exact path="/" component={Section}></Route>
-        <Route path="/com" component={Newtest}></Route>
-      </Switch>
-      <Footer></Footer>
-    </div>
+    
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <div className="App">
+        <Header></Header>
+        <Switch>
+          <Route exact path="/" component={Section}></Route>
+          <Route exact path="/com" component={Newtest}></Route>
+        </Switch>
+        <Footer></Footer>
+      </div>
+    </BrowserRouter>
   );
 }
 

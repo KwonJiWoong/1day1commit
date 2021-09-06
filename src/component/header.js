@@ -1,4 +1,5 @@
 import '../css/header.css';
+import { Link} from "react-router-dom";
 
 function Header() {
     const data = [
@@ -6,9 +7,9 @@ function Header() {
     {id:2, name: "테스트", link: "/com"}
 
     ];
-    const GnbList = data.map((gnbList, i) => 
+    const GnbList = data.map((gnbList) => 
         <li key={gnbList.id}>
-            <a href={gnbList.link}>{gnbList.name}</a>
+            <Link to={gnbList.link}>{gnbList.name}</Link>
         </li>
     );
   return (
