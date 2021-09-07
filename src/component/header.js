@@ -1,11 +1,10 @@
 import '../css/header.css';
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Header() {
     const data = [
-    {id:1, name: "홈", link: "/"},
-    {id:2, name: "테스트", link: "/com"}
-
+    {id:1, name: "홈", link: "./"},
+    {id:2, name: "테스트", link: "./sub"}
     ];
     const GnbList = data.map((gnbList) => 
         <li key={gnbList.id}>
