@@ -9,6 +9,7 @@ ReactDOM.render(
   <BrowserRouter basename={process.env.PUBLIC_URL}>
     <React.StrictMode>
       <App />
+      <p>{process.env.PUBLIC_URL}</p>
     </React.StrictMode>
   </BrowserRouter>,
   document.getElementById('root')
