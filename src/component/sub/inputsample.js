@@ -7,6 +7,7 @@ function InputSample(){
     name:'',
     nickname:''
   });
+  
   const [text, setText] = useState({
     txt:''
   });
