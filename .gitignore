@@ -1,9 +1,6 @@
 # https://www.gitignore.io/ 주소 참고
 # 프로젝트 어느정도 완성 전까지 package 파일도 git commit X
 /node_modules
-package.json
-package-lock.json
-
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -26,3 +23,5 @@ package-lock.json
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.gitignore

@@ -40,3 +40,6 @@
 4. 현재 빌드 시 마다 index.html 기본 경로가 ./ > / 로 변경되는데 확인 필요 내일 해결예정
 5. 빌드 후 실서버에서 확인 사항 : basename경로가 package:homepage경로와 일치하지 않는 것으로 보임(undefined로 출력 예상)
 6. 5번사항 확인 완료... package:homepage경로가 오타가있었음 
+
+## 2021-09-08
+1. 어제 4번사항 package:homepage 경로를 ./으로 변경
