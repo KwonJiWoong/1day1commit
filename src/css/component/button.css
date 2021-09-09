@@ -1,0 +1,6 @@
+/* btn */
+button[class^=btn-]{background:#fff; padding:20px 40px; font-size:14px; border:solid 1px #000; color:#000;}
+button[class$=ty01]{background:#000; border:0; color:#fff;}
+button[class$=ty02]{background:#ddd; border:0; color:#222;}
+button[class$=ty03]{background:#aaa; border:0; color:#222;}
+button[class$=br]{border-radius:40px;}

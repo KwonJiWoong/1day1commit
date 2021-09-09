@@ -1,7 +1,8 @@
 import '../css/section.css';
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, browserHistory } from "react-router-dom";
 import Subcontens from './sub/subcontents';
 import InputSample from './sub/inputsample';
+import BtnCollection from './collection/btnCollection';
 
 
 function Section() {
@@ -10,6 +11,7 @@ function Section() {
         <Switch>
           <Route exact path="/" render={() => <InputSample />}></Route>
           <Route exact path="/sub" render={() => <Subcontens />}></Route>
+          <Route exact path="/btn" render={() => <BtnCollection test_all={true}/>}></Route>
         </Switch>
       </section>
   );

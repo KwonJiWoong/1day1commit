@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 function Header() {
     const data = [
     {id:1, name: "홈", link: "./"},
-    {id:2, name: "테스트", link: "./sub"}
+    {id:2, name: "서브", link: "./sub"},
+    {id:3, name: "버튼 모음", link: "./btn"}
     ];
     const GnbList = data.map((gnbList) => 
         <li key={gnbList.id}>
