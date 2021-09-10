@@ -9,9 +9,13 @@ function Button({value, type, test_all}){
             return(
                 <div>
                     <button className="btn-ty01">{valueChk}</button>
+                    <pre class="code-view"><code>{'<button className="btn-ty01">기본 텍스트</button>'}</code></pre>
                     <button className="btn-ty02">{valueChk}</button>
+                    <pre class="code-view"><code>{'<button className="btn-ty02">기본 텍스트</button>'}</code></pre>
                     <button className="btn-ty03">{valueChk}</button>
+                    <pre class="code-view"><code>{'<button className="btn-ty03">기본 텍스트</button>'}</code></pre>
                     <button className="btn-default">{valueChk}</button>
+                    <pre class="code-view"><code>{'<button className="btn-default">기본 텍스트</button>'}</code></pre>
                 </div>);
         }else{
             switch (type) {
