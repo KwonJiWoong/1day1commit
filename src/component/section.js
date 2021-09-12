@@ -13,7 +13,7 @@ function Section() {
           <Route exact path="/" render={() => <InputSample />}></Route>
           <Route exact path="/sub" render={() => <Subcontens />}></Route>
           <Route exact path="/btn" render={() => <BtnCollection test_all={true}/>}></Route>
-          <Route exact path="/select" render={() => <SelectCollection test_all={true}/>}></Route>
+          <Route exact path="/select" render={() => <SelectCollection value="family"/>}></Route>
         </Switch>
       </section>
   );

@@ -1,0 +1,9 @@
+{
+    "family":[
+        {"id":"1","valueTxt":"옵션1"},
+        {"id":"2","valueTxt":"옵션2"},
+        {"id":"3","valueTxt":"옵션3"},
+        {"id":"4","valueTxt":"옵션4"},
+        {"id":"5","valueTxt":"옵션5"}
+    ]
+}
