@@ -60,3 +60,7 @@
 
 ## 2021-09-12
 1. select json 연동 중
+
+## 2021-09-13
+1. select json 연동
+2. list click 옵션 추가(현재는 selected만 추가)
