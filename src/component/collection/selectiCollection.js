@@ -14,17 +14,15 @@ function Select(props){
     const {optionSelect} = selectedState;
     const selectOnClick = ((e) => {
         const listWrap = e.target.parentNode;
-        if(listWrap.classList.constains('open')){
+        if(listWrap.classList.contains('open')){
             const value = e.target.innerText;
             setSelectedState({
                 ...selectedState,
                 optionSelect: value
               });
               listWrap.classList.remove('open');
-              console.log(optionSelect);
         }else{
             listWrap.classList.add('open');
-
         }
     });
 
