@@ -64,3 +64,6 @@
 ## 2021-09-13
 1. select json 연동
 2. list click 옵션 추가(현재는 selected만 추가)
+
+## 2021-09-14
+1. select open class 추가 및 변경
