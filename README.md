@@ -67,3 +67,6 @@
 
 ## 2021-09-14
 1. select open class 추가 및 변경
+
+## 2021-09-24
+1. transform translate로 이동 시 흐림 방지 : backface-visibility:hidden; 
