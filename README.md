@@ -70,3 +70,6 @@
 
 ## 2021-09-15
 1. 임시 스톱 / 바닐라 JS 공부 시작
+
+## 2021-09-24
+1. transform translate로 이동 시 흐림 방지 : backface-visibility:hidden; 
