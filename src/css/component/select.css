@@ -1,7 +1,7 @@
 .select-container{position:relative; width:200px; height:50px; border:solid 1px #000;}
-.select-container ul{position:absolute; width:100%; list-style:none; overflow:hidden; height:52px; z-index:1;}
+.select-container ul{position:absolute; width:100%; list-style:none; visibility:hidden; height:52px; z-index:1;}
 .select-container ul li{line-height:50px; width:100%; cursor:pointer;border:solid 1px #ddd;}
-.select-container ul.open{overflow:visible;}
+.select-container ul.open{visibility:visible;}
 .select-container ul.open li:hover{color:blue;}
 .select-container .select-wrap{position:absolute; left:0; top:0; overflow:hidden;}
 .select-container select{position:absolute; left:-100%; top:-100%; text-indent:-9999px; overflow: hidden; appearance:none;}
