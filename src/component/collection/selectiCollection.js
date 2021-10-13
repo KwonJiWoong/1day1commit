@@ -8,18 +8,21 @@ function Select(props){
         optionData:''
       });
       const [selectedState, setSelectedState] = useState({
-        optionSelect:''
+        optionSelect:'선택하세요',
+        optionSelectIndex:'0'
         });
     const optionData = selectData[props.value];
-    const {optionSelect} = selectedState;
+    const {optionSelect, optionSelectIndex} = selectedState;
     const selectOnClick = ((e) => {
         const listWrap = e.target.parentNode;
         if(listWrap.classList.contains('open')){
             const value = e.target.innerText;
             setSelectedState({
                 ...selectedState,
-                optionSelect: value
+                optionSelect: value,
+                optionSelectIndex:e.currentTarget
               });
+              console.log(optionSelectIndex)
               listWrap.classList.remove('open');
         }else{
             listWrap.classList.add('open');
