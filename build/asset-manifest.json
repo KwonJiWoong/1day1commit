@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/1day1commit/build/static/css/main.92d8ca30.chunk.css",
-    "main.js": "/1day1commit/build/static/js/main.a94a3fdb.chunk.js",
-    "main.js.map": "/1day1commit/build/static/js/main.a94a3fdb.chunk.js.map",
+    "main.css": "/1day1commit/build/static/css/main.7c1d1ccf.chunk.css",
+    "main.js": "/1day1commit/build/static/js/main.91dd987a.chunk.js",
+    "main.js.map": "/1day1commit/build/static/js/main.91dd987a.chunk.js.map",
     "runtime-main.js": "/1day1commit/build/static/js/runtime-main.92e9c751.js",
     "runtime-main.js.map": "/1day1commit/build/static/js/runtime-main.92e9c751.js.map",
-    "static/js/2.3199b8b9.chunk.js": "/1day1commit/build/static/js/2.3199b8b9.chunk.js",
-    "static/js/2.3199b8b9.chunk.js.map": "/1day1commit/build/static/js/2.3199b8b9.chunk.js.map",
+    "static/js/2.a47b0c26.chunk.js": "/1day1commit/build/static/js/2.a47b0c26.chunk.js",
+    "static/js/2.a47b0c26.chunk.js.map": "/1day1commit/build/static/js/2.a47b0c26.chunk.js.map",
     "static/js/3.e6a18165.chunk.js": "/1day1commit/build/static/js/3.e6a18165.chunk.js",
     "static/js/3.e6a18165.chunk.js.map": "/1day1commit/build/static/js/3.e6a18165.chunk.js.map",
     "index.html": "/1day1commit/build/index.html",
-    "static/css/main.92d8ca30.chunk.css.map": "/1day1commit/build/static/css/main.92d8ca30.chunk.css.map",
-    "static/js/2.3199b8b9.chunk.js.LICENSE.txt": "/1day1commit/build/static/js/2.3199b8b9.chunk.js.LICENSE.txt"
+    "static/css/main.7c1d1ccf.chunk.css.map": "/1day1commit/build/static/css/main.7c1d1ccf.chunk.css.map",
+    "static/js/2.a47b0c26.chunk.js.LICENSE.txt": "/1day1commit/build/static/js/2.a47b0c26.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.92e9c751.js",
-    "static/js/2.3199b8b9.chunk.js",
-    "static/css/main.92d8ca30.chunk.css",
-    "static/js/main.a94a3fdb.chunk.js"
+    "static/js/2.a47b0c26.chunk.js",
+    "static/css/main.7c1d1ccf.chunk.css",
+    "static/js/main.91dd987a.chunk.js"
   ]
 }
